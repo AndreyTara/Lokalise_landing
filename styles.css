@@ -1,3 +1,4 @@
-.nav-menu-name {
-  color: aqua;
+.nav-menu-item:hover {
+  color: red;
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
