@@ -204,6 +204,7 @@
   margin-right: 96px;
   display: flex;
   justify-content: space-between;
+  gap: 103px;
 }
 .container .main .section-second .icons .item {
   list-style: none;
