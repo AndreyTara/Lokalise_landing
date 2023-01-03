@@ -201,7 +201,7 @@
 				.picture {
 					height: 529px;
 					width: 759px;
-
+margin-right: 67px;
 				}
 			}
 		}
@@ -228,7 +228,7 @@
 				text-align: center;
 				color: #000000;
 				display: flex;
-				justify-content: center;
+				margin: 0 auto;
 				margin-top: 108px;
 			}
 
@@ -237,9 +237,11 @@
 				margin-left: 102px;
 				margin-right: 96px;
 				display: flex;
-				gap: 103px;
+				justify-content: space-between;
+				// gap: 103px;
 
 				.item {
+					// display: block;
 					list-style: none;
 				}
 			}
