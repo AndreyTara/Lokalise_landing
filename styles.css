@@ -292,13 +292,14 @@
   justify-content: center;
 }
 .container .main .section-fourth .container .wrraper {
-  margin-top: 79px;
+  margin-top: 58px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   row-gap: 75px;
   -moz-column-gap: 110px;
        column-gap: 110px;
+  margin-bottom: 150px;
 }
 .container .main .section-fourth .container .wrraper .frame {
   width: 330px;

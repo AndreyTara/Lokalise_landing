@@ -316,8 +316,6 @@
 			}
 		}
 
-
-
 		.section-fourth {
 			margin: 0 auto;
 			max-width: 1440px;
@@ -349,12 +347,13 @@
 				}
 
 				.wrraper {
-					margin-top: 79px;
+					margin-top: 58px;
 					display: flex;
 					justify-content: center;
 					flex-wrap: wrap;
 					row-gap: 75px;
 					column-gap: 110px;
+					margin-bottom: 150px;
 
 					.frame {
 						// max-width: 330px;
