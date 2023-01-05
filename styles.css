@@ -93,7 +93,7 @@
 }
 .container .main {
   min-height: calc(100vh - 95px - 455px);
-  height: 100%;
+  min-height: 100vh;
 }
 .container .main .section-first {
   margin-top: 129px;
@@ -173,7 +173,6 @@
 }
 .container .main .section-second {
   margin: 0 auto;
-  height: 455px;
   max-width: 1440px;
   width: 100%;
   background: #FF9C7D;
@@ -200,10 +199,12 @@
   margin-top: 70px;
   margin-left: 102px;
   margin-right: 96px;
+  margin-bottom: 96px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 103px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
 }
 .container .main .section-third {
   margin: 0 auto;
@@ -213,21 +214,22 @@
 }
 .container .main .section-third .content {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin: 0 75px;
   margin-top: 250px;
   gap: 0 138px;
 }
-.container .main .section-third .content-project {
+.container .main .section-third .content.content-project {
   margin-top: 90px;
 }
-.container .main .section-third .wrapper {
+.container .main .section-third .content .wrapper {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   gap: 30px 0;
 }
-.container .main .section-third .wrapper .content-text {
+.container .main .section-third .content .wrapper .content-text {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -235,14 +237,14 @@
   height: content;
   margin-top: 150px;
 }
-.container .main .section-third .wrapper .content-discription {
+.container .main .section-third .content .wrapper .content-discription {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  witdh: 520px;
+  width: 520PX;
 }
-.container .main .section-third .wrapper .task-links {
+.container .main .section-third .content .wrapper .content-discription.task-links {
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -251,7 +253,7 @@
   text-align: left;
   color: #000000;
 }
-.container .main .section-third .wrapper .content-link {
+.container .main .section-third .content .wrapper .content-link {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -259,19 +261,9 @@
   text-decoration: none;
   color: #000000;
 }
-.container .main .section-third .wrapper .content-img {
+.container .main .section-third .content .wrapper .content-img {
   height: 632px;
   width: 632px;
-}
-.container .main .section-third .wrapper .content-developpers .content-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(./assets/php-bg-pic.svg);
-}
-.container .main .section-third .wrapper .content-developpers .content-img .bg-img {
-  height: 340px;
-  width: 500px;
 }
 .container .main .section-fourth {
   margin: 0 auto;
@@ -458,6 +450,7 @@
   margin-top: 63px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin-left: 75px;
   margin-right: 75px;
@@ -512,6 +505,7 @@
 .container .main .section-seventh .container .border-item {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   border-right: 1px solid #000;
   height: 178px;
@@ -535,6 +529,7 @@
 .container .main .section-seventh .container .star-item {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
 .container .main .section-seventh .container .star-item .left-img {
