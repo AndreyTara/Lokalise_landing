@@ -7,8 +7,8 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
-	height: 100%;
+	// min-height: 100vh;
+	// height: 100%;
 
 	.header {
 		height: 95px;
@@ -112,6 +112,7 @@
 
 	.main {
 		min-height: calc(100vh - 95px - 455px);
+		// min-height: 100vh
 		height: 100%;
 
 		.section-first {
@@ -336,19 +337,331 @@
 
 		}
 
+		.section-fourth {
+			margin: 0 auto;
+			max-width: 1440px;
+			width: 100%;
+			font-family: Graphik LC TT, sans-serif;
+			background: #FFF8E4;
+
+
+			.container {
+				margin-top: 150px;
+				margin-left: 75px;
+				margin-right: 75px;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+
+
+				.h2-text {
+					margin-top: 120px;
+					font-size: 50px;
+					font-weight: 600;
+					line-height: 60px;
+					letter-spacing: 0em;
+					text-align: center;
+
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+				}
+
+				.wrraper {
+					margin-top: 79px;
+					display: flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					row-gap: 75px;
+					column-gap: 110px;
+
+					.frame {
+						// max-width: 330px;
+						width: 330px;
+						// max-height: 294px;
+						height: 294px;
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+						align-items: center;
+						gap: 20px;
+
+						.picture {
+							height: 120px;
+							width: 160px;
+						}
+
+						.name-apps {
+							font-style: normal;
+							font-weight: 600;
+							font-size: 25px;
+							line-height: 35px;
+							text-align: center;
+							color: #000000;
+						}
+
+						.disctipsion {
+							font-style: normal;
+							font-weight: 400;
+							font-size: 18px;
+							line-height: 25px;
+							text-align: center;
+							color: #000000;
+
+							.task-links {
+								font-family: Roboto, sans-serif;
+								font-size: 18px;
+								font-weight: 400;
+								line-height: 25px;
+								letter-spacing: 0em;
+								text-align: center;
+								color: #000;
+							}
+
+							&.width303 {
+								width: 303px;
+							}
+
+							&.width281 {
+								width: 281px;
+							}
+
+							&.width310 {
+								width: 310px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+		.section-fifth {
+			margin: auto;
+			max-width: 1440px;
+			width: 100%;
+			font-family: Graphik LC TT, sans-serif;
+
+			.container {
+				display: flex;
+				flex-direction: column;
+				margin-left: 75px;
+				margin-right: 75px;
+
+				.h2-text {
+					margin-top: 154px;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 50px;
+					line-height: 60px;
+					color: #000000;
+				}
+
+				.wrraper {
+					// height: 609px;
+					// width: 1290px;
+					margin-top: 75px;
+					display: flex;
+					justify-content: space-between;
+					flex-wrap: wrap;
+					gap: 31px;
+
+					.frame {
+						height: 610px;
+						width: 408px;
+						display: flex;
+						flex-direction: column;
+						justify-content: left;
+
+						.picture {
+							width: 179px;
+							height: 201px;
+							display: flex;
+							align-items: center;
+							justify-content: left;
+
+							.pic145-201 {
+								width: 145px;
+								height: 201px;
+							}
+
+							.pic179-166 {
+								width: 179px;
+								height: 166px;
+							}
+
+							.pic179-183 {
+								width: 179px;
+								height: 183px;
+							}
+
+						}
+
+						.name-picture {
+							font-style: normal;
+							font-weight: 600;
+							font-size: 30px;
+							line-height: 40px;
+							color: #000000;
+							margin-top: 49px;
+						}
+
+						.disctipsion {
+							font-size: 20px;
+							font-weight: 400;
+							line-height: 30px;
+							letter-spacing: 0em;
+							text-align: left;
+							height: content;
+							width: 407px;
+							margin-top: 34px;
+
+							&.task-links {
+								font-family: Roboto;
+								font-size: 18px;
+								font-weight: 400;
+								line-height: 25px;
+								letter-spacing: 0em;
+								text-align: center;
+								color: #000000;
+							}
+						}
+
+						.link-item {
+							margin-top: 25px;
+							font-style: normal;
+							font-weight: 400;
+							font-size: 20px;
+							line-height: 30px;
+							text-decoration-line: underline;
+							color: #000000;
+						}
+					}
+				}
+			}
+		}
+
+		.section-fixth {
+			margin: 0 auto;
+			max-width: 1440px;
+			width: 100%;
+			font-family: Graphik LC TT, sans-serif;
+			display: flex;
+			background: #C9E8F2;
+			height: 468px;
+
+			.container {
+				margin-top: 63px;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin-left: 75px;
+				margin-right: 75px;
+				gap: 59px;
+
+				.wrapper {
+					display: flex;
+					flex-direction: column;
+
+					.disctipsion {
+						display: flex;
+						height: 160px;
+						width: 920px;
+						font-style: normal;
+						font-weight: 400;
+						font-size: 30px;
+						line-height: 40px;
+						color: #000000;
+					}
+
+					.job-title {
+						margin-top: 23px;
+						font-family: Roboto, sans-serif;
+						font-style: normal;
+						font-weight: 400;
+						font-size: 15px;
+						line-height: 25px;
+						color: #000000;
+					}
+
+					.logo {
+						margin-top: 7px;
+						height: 25px;
+						width: 115px;
+					}
+				}
+
+				.photo {
+					height: 310px;
+					width: 310px;
+				}
+			}
+		}
+
+		.section-seventh {
+			margin: 0 auto;
+			max-width: 1440px;
+			width: 100%;
+			height: 332px;
+			display: flex;
+			font-family: Graphik LC TT, sans-serif;
+			background: #DABC98;
+
+			.container {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+
+				.border-item {
+					display: flex;
+					flex-direction: row;
+					// justify-content: center;
+					align-items: center;
+					border-right: 1px solid #000;
+					height: 178px;
+					width: 809px;
+
+
+					.cake-img {
+						margin-left: 54px;
+						width: 176px;
+						height: 154px;
+					}
+
+					.h2-text {
+						margin-left: 67px;
+						height: 100px;
+						width: 461px;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 35px;
+						line-height: 50px;
+						color: #000000;
+					}
+				}
+
+				.star-item {
+					display: flex;
+					flex-direction: row;
+					// justify-content: center;
+					align-items: center;
+
+					.left-img {
+						margin-left: 71px;
+						height: 116px;
+						width: 128px;
+
+					}
+
+					.right-img {
+						margin-left: 71px;
+						height: 116px;
+						width: 150px;
+						border-radius: 0px;
+					}
+
+				}
+			}
+		}
 	}
-
 }
-
-
-
-
-
-// .nav-menu__item {
-// 	list-style: none;
-// }
-
-// .active:hover {
-// 	color: red;
-// 	text-decoration: underline;
-// }
